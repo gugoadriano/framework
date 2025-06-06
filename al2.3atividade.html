@@ -9,10 +9,10 @@
 <body>
     
    <div id="liveAlertPlaceholder"></div>
-  <div class="d-flex flex-column justify-content-center align-items-center min-vh-100">
+   <div class="d-flex flex-column justify-content-center align-items-center min-vh-100">
     <h2 class="mb-3">Atenção</h2>
     <button type="button" class="btn btn-primary" id="liveAlertBtn">Cuidado!!!</button>
-</div>
+    </div>
    <script>
     const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
 const appendAlert = (message, type) => {
@@ -30,7 +30,7 @@ const appendAlert = (message, type) => {
 const alertTrigger = document.getElementById('liveAlertBtn')
 if (alertTrigger) {
   alertTrigger.addEventListener('click', () => {
-    appendAlert('Nice, you triggered this alert message!', 'success')
+    appendAlert('Jesus esta voltando!', 'success')
   })
 }
    </script>
